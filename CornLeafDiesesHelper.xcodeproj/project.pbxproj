@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		D36494C42A1F8C0800F97244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494C32A1F8C0800F97244 /* AppDelegate.swift */; };
 		D36494C62A1F8C0800F97244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494C52A1F8C0800F97244 /* SceneDelegate.swift */; };
-		D36494C82A1F8C0800F97244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494C72A1F8C0800F97244 /* ViewController.swift */; };
-		D36494CB2A1F8C0800F97244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36494C92A1F8C0800F97244 /* Main.storyboard */; };
 		D36494CD2A1F8C0A00F97244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36494CC2A1F8C0A00F97244 /* Assets.xcassets */; };
 		D36494D02A1F8C0A00F97244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36494CE2A1F8C0A00F97244 /* LaunchScreen.storyboard */; };
+		D36494DA2A1F8C2700F97244 /* CornLeafDiseaseHelper.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D36494D92A1F8C2700F97244 /* CornLeafDiseaseHelper.mlmodel */; };
+		D36494DF2A1F8DF600F97244 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494DE2A1F8DF600F97244 /* MainViewController.swift */; };
+		D36494E22A1F8F1D00F97244 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494E12A1F8F1D00F97244 /* ImagePredictor.swift */; };
+		D36494E42A1F916000F97244 /* MainViewController+CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494E32A1F916000F97244 /* MainViewController+CameraPicker.swift */; };
+		D36494E62A1F918C00F97244 /* MainViewController+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494E52A1F918C00F97244 /* MainViewController+PhotoPicker.swift */; };
+		D36494E92A1F91FC00F97244 /* UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494E82A1F91FC00F97244 /* UIImageOrientation.swift */; };
+		D36494EB2A1F921200F97244 /* PercentageOfImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36494EA2A1F921200F97244 /* PercentageOfImage.swift */; };
+		D3941A832A220FD7009CF7C3 /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3941A822A220FD7009CF7C3 /* YoutubeViewController.swift */; };
+		D3AD9FF12A1F9DD90032817A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AD9FF02A1F9DD90032817A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D36494C02A1F8C0800F97244 /* CornLeafDiesesHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornLeafDiesesHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36494C32A1F8C0800F97244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D36494C52A1F8C0800F97244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D36494C72A1F8C0800F97244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D36494CA2A1F8C0800F97244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D36494CC2A1F8C0A00F97244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D36494CF2A1F8C0A00F97244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D36494D12A1F8C0A00F97244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36494D92A1F8C2700F97244 /* CornLeafDiseaseHelper.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CornLeafDiseaseHelper.mlmodel; sourceTree = "<group>"; };
+		D36494DE2A1F8DF600F97244 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D36494E12A1F8F1D00F97244 /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		D36494E32A1F916000F97244 /* MainViewController+CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+CameraPicker.swift"; sourceTree = "<group>"; };
+		D36494E52A1F918C00F97244 /* MainViewController+PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+PhotoPicker.swift"; sourceTree = "<group>"; };
+		D36494E82A1F91FC00F97244 /* UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageOrientation.swift; sourceTree = "<group>"; };
+		D36494EA2A1F921200F97244 /* PercentageOfImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageOfImage.swift; sourceTree = "<group>"; };
+		D3941A822A220FD7009CF7C3 /* YoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
+		D3AD9FF02A1F9DD90032817A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		D36494C22A1F8C0800F97244 /* CornLeafDiesesHelper */ = {
 			isa = PBXGroup;
 			children = (
+				D36494E72A1F91D300F97244 /* Extensions */,
+				D36494E02A1F8EFB00F97244 /* ImagePredictor */,
+				D36494D72A1F8C1C00F97244 /* model */,
+				D36494DB2A1F8CC500F97244 /* ViewControllers */,
 				D36494C32A1F8C0800F97244 /* AppDelegate.swift */,
 				D36494C52A1F8C0800F97244 /* SceneDelegate.swift */,
-				D36494C72A1F8C0800F97244 /* ViewController.swift */,
-				D36494C92A1F8C0800F97244 /* Main.storyboard */,
 				D36494CC2A1F8C0A00F97244 /* Assets.xcassets */,
 				D36494CE2A1F8C0A00F97244 /* LaunchScreen.storyboard */,
 				D36494D12A1F8C0A00F97244 /* Info.plist */,
 			);
 			path = CornLeafDiesesHelper;
+			sourceTree = "<group>";
+		};
+		D36494D72A1F8C1C00F97244 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D36494D92A1F8C2700F97244 /* CornLeafDiseaseHelper.mlmodel */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D36494DB2A1F8CC500F97244 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D36494DE2A1F8DF600F97244 /* MainViewController.swift */,
+				D36494E32A1F916000F97244 /* MainViewController+CameraPicker.swift */,
+				D36494E52A1F918C00F97244 /* MainViewController+PhotoPicker.swift */,
+				D3AD9FF02A1F9DD90032817A /* Main.storyboard */,
+				D3941A822A220FD7009CF7C3 /* YoutubeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D36494E02A1F8EFB00F97244 /* ImagePredictor */ = {
+			isa = PBXGroup;
+			children = (
+				D36494E12A1F8F1D00F97244 /* ImagePredictor.swift */,
+			);
+			path = ImagePredictor;
+			sourceTree = "<group>";
+		};
+		D36494E72A1F91D300F97244 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D36494E82A1F91FC00F97244 /* UIImageOrientation.swift */,
+				D36494EA2A1F921200F97244 /* PercentageOfImage.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AD9FF12A1F9DD90032817A /* Main.storyboard in Resources */,
 				D36494D02A1F8C0A00F97244 /* LaunchScreen.storyboard in Resources */,
 				D36494CD2A1F8C0A00F97244 /* Assets.xcassets in Resources */,
-				D36494CB2A1F8C0800F97244 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +191,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D36494C82A1F8C0800F97244 /* ViewController.swift in Sources */,
+				D36494E42A1F916000F97244 /* MainViewController+CameraPicker.swift in Sources */,
 				D36494C42A1F8C0800F97244 /* AppDelegate.swift in Sources */,
+				D36494EB2A1F921200F97244 /* PercentageOfImage.swift in Sources */,
+				D36494DA2A1F8C2700F97244 /* CornLeafDiseaseHelper.mlmodel in Sources */,
 				D36494C62A1F8C0800F97244 /* SceneDelegate.swift in Sources */,
+				D36494E92A1F91FC00F97244 /* UIImageOrientation.swift in Sources */,
+				D36494E62A1F918C00F97244 /* MainViewController+PhotoPicker.swift in Sources */,
+				D3941A832A220FD7009CF7C3 /* YoutubeViewController.swift in Sources */,
+				D36494DF2A1F8DF600F97244 /* MainViewController.swift in Sources */,
+				D36494E22A1F8F1D00F97244 /* ImagePredictor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D36494C92A1F8C0800F97244 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D36494CA2A1F8C0800F97244 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D36494CE2A1F8C0A00F97244 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,6 +347,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
